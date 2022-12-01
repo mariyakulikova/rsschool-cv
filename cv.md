@@ -7,7 +7,7 @@
 ### work experience:
 #### April 2022 — August 2022
 _Company:_ **Platrum** \
-_position:_ **Frontend developer** 
+_Position:_ **Frontend developer** 
 
 **My duties included:**
 - developing new features for Platrum modules;
