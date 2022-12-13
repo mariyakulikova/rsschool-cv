@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="profile">
+                <div class="profile-whrapper">
+                    <img class="avatar" src="./assets/foto.jpg" alt="Куликова Мария" height="120">
+                    <div class="profile-title-whrapper">
+                        <h1 class="title">Kulikova Mariya</h1>
+                        <span class="position">Frontend developer</span>
+                    </div>
+                    <p class="profile-text">
+                        Hi! My name is Mariya. I am a frontend developer. I started learning Java programming, but then I got carried away with the frontend.
+                        I've got 2.5 years of expirience in frontend, of which 1.5 years of commercial.
+                    </p>
+                </div>
+                <ul class="contacts-list">
+                    <li class="contacts-list__item">
+                        <span class="contacts-list__text">Email</span>
+                        <a class="contacts-list__link" href="mailto:mariya.kulikova818@gmail.com">mariya.kulikova818@gmail.com</a>
+                    </li>
+                    <li class="contacts-list__item">
+                        <span class="contacts-list__text">Telegram</span>
+                        <a class="contacts-list__link" href="https://t.me/KulikovaMaria">@KulikovaMaria</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="experience" id="experience">
+                <h2 class="experience-title">Experience</h2>
+                <ul class="expirience-list">
+                    <li class="expirience-list-item">
+                        <article class="article">
+                            <div class="article-header">
+                                <h3 class="article-title">Frontend developer</h3>
+                                <span class="article-sub-title">Platrum April 2022 - August 2022</span>
+                            </div>
+                            <div class="article-main">
+                                <p>
+                                    Platrum is a management automation service that includes more than 10 modules for business.
+                                </p>
+                                <p>
+                                    My duties included:
+                                </p>
+                                <ul>
+                                    <li>developing new features for Platrum modules;</li>
+                                    <li>programming the business logic of the client side of the applications;</li>
+                                    <li>Integration with backend through REST-API;</li>
+                                    <li>Collaboration with product manager, frontend and backend developers;</li>
+                                    <li>Bug fixes.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="expirience-list-item">
+                        <article class="article">
+                            <div class="article-header">
+                                <h3 class="article-title">Frontend developer</h3>
+                                <span class="article-sub-title">Aeronavigator February 2021 - April 2022</span>
+                            </div>
+                            <div class="article-main">
+                                <p>Aeronavigator is a developer of solutions for automating the business processes of airlines.</p>
+                                <p>
+                                    My duties included:
+                                </p>
+                                <ul>
+                                    <li>development from scratch and refinement of the visual part of business applications;</li>
+                                    <li>programming the business logic of the client side of applications;</li>
+                                    <li>integration with backend through REST-API;</li>
+                                    <li>layout;</li>
+                                    <li>collaboration with product manager, frontend and backend developers;</li>
+                                    <li>Bug fixes.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="education-title">Education</h2>
+                <ul class="education-list">
+                    <li class="education-list-item">
+                        <a class="education-link" href="https://fintech.tinkoff.ru/study/fintech/">Tinkoff Fintech</a>
+                    </li>
+                    <li class="education-list-item">
+                        <a class="education-link" href="https://route256.ozon.ru/frontend">Route 256</a>
+                    </li>
+                    <li class="education-list-item">
+                        <a class="education-link" href="https://21-school.ru/">School21 Piscine</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="skills-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-list-item">HTML</li>
+                    <li class="skills-list-item">CSS</li>
+                    <li class="skills-list-item">ES6</li>
+                    <li class="skills-list-item">GIT</li>
+                    <li class="skills-list-item">Vue</li>
+                    <li class="skills-list-item">VueX</li>
+                    <li class="skills-list-item">VueRouter</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2 class="languages-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-list-item">Russian - naitive</li>
+                    <li class="languages-list-item">English - B1</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a href="https://github.com/mariyakulikova">
+                        <img src="./assets/github.svg" alt="github icon" height="28">
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <span>2022 &#169;</span>
+                </li>
+                <li class="footer-list-item">
+                    <a href="https://rs.school/js/">
+                        <img src="./assets/rsschool.svg" alt="rsschool icon" height="28">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
